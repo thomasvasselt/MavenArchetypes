@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>nl.saxionact</groupId>
+	<artifactId>webproject-archetype</artifactId>
+	<version>0.1</version>
+	<packaging>maven-archetype</packaging>
+
+	<name>webproject-archetype</name>
+
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.archetype</groupId>
+				<artifactId>archetype-packaging</artifactId>
+				<version>2.2</version>
+			</extension>
+		</extensions>
+
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-archetype-plugin</artifactId>
+					<version>2.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<description>An archetype project for a webproject based on the things learned at Webtechnology</description>
+
+	<developers>
+		<developer>
+			<id>rgr05</id>
+			<name>Ruud Greven</name>
+			<email>r.greven@saxion.nl</email>
+			<organization>Saxion ACT</organization>
+			<organizationUrl>http://www.saxion.nl/act</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/SaxionACT/ServerClientsDocenten.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/SaxionACT/ServerClientsDocenten.git</developerConnection>
+		<url>https://github.com/SaxionACT/ServerClientsDocenten</url>
+	</scm>
+</project>
