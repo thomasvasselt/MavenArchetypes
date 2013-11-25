@@ -17,3 +17,6 @@ Then it should ask you for a groupId, an artifactId and a package:
 
 * The package should be filled in with the package for the project, which should be the groupId followed by the artifactId, e.g. `nl.ruudgreven.mywebproject`
 
+
+Edit the pom.xml to suite your needs. Check all the sections marked with a `<!-- TODO: ... -->`
+
