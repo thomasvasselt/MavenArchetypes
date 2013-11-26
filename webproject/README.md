@@ -31,7 +31,9 @@ You need to configure the M2_REPO classpath in Eclipse (if you don't already hav
 
 Then, you can import the project in Eclipse using the following steps
 
-1. Run `mvn eclipse:eclipse -Dwtpversion=1.5` in the project folder
+1. Run `mvn install` to build the project and receive dependencies.
 
-2. In Eclipse, go to `File -> Import -> Existing Projects into Workspace` and choose your project folder to import.
+2. Run `mvn eclipse:eclipse -Dwtpversion=1.5` in the project folder
+
+3. In Eclipse, go to `File -> Import -> Existing Projects into Workspace` and choose your project folder to import.
 
