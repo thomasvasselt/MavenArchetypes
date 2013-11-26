@@ -20,3 +20,18 @@ Then it should ask you for a groupId, an artifactId and a package:
 
 Edit the pom.xml to suite your needs. Check all the sections marked with a `<!-- TODO: ... -->`
 
+## Import in Eclipse
+**Note:** You need Eclipse JEE Version.
+
+You need to configure the M2_REPO classpath in Eclipse (if you don't already have it) using the following steps:
+
+1. Go to `Preferences -> Java -> Build Path -> Classpath Variables` and choose `new`.
+
+2. Use the name `M2_REPO` and the Path `~/.m2/repository`
+
+Then, you can import the project in Eclipse using the following steps
+
+1. Run `mvn eclipse:eclipse -Dwtpversion=1.5` in the project folder
+
+2. In Eclipse, go to `File -> Import -> Existing Projects into Workspace` and choose your project folder to import.
+
